@@ -77,7 +77,7 @@ h1 {
 } 
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--fg-colour);
     font-style: italic;
 }
@@ -103,7 +103,7 @@ a:hover {
 ul {
     list-style-position: outside;
     list-style-type: none;
-    font-size: 0.7em;
+    font-size: 0.8em;
     width: auto;
 }
 
