@@ -78,6 +78,7 @@ h1 {
 
 a {
     text-decoration: none;
+    color: var(--fg-colour);
     font-style: italic;
 }
 a:visited {
@@ -119,7 +120,7 @@ button {
     font-family: var(--home-font);
     color: var(--fg-colour);
     background-color: transparent;
-    border: 1px solid var(--fg-colour);
+    border: 0px solid var(--fg-colour);
     padding: 10px 10px;
     border-radius: 0px;
 }
@@ -130,7 +131,7 @@ button {
 
 button:hover {
     color: var(--hover-colour);
-    background-color: var(--fg-colour);
+    background-color: transparent;
     border-color: var(--bg-colour);
     transition-duration: 0.3s;
 }
