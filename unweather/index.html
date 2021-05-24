@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>unweather.life</title> 
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+ 
+  <body> 
+    <div class="container">
+
+
+      <div id="left-panel">
+
+        <img id="profile-pic">
+
+        <h1><a>william f-r</a></h1>
+        
+        <button id="ps-button" onclick="togglePS()">about</button>
+
+        <div id="personal-statement">
+          <p>
+            I am a Manchester-based musician, producer and amateur artist working in a range of genres and media. I release 
+        music under the alias <a href="http://unweather.bandcamp.com">Unweather</a>, and have composed music for a range of interactive experiences, 
+        including an ongoing collaboration with digital artist <a href="http://ellebulger.co.uk/">Elle Bulger</a>. I play a range of instruments with 
+        Manchester-based psych-rock band <a href="http://farfisaband.bandcamp.com">Farfisa</a> and have also acted as 
+        mix engineer for the band's last three singles. <br> <br>
+        
+        As an instrumentalist I am primarily a bass guitarist, but I also play guitar, synthesizers, and am currently
+        learning the clarinet. <br><br>
+
+        My interests include: cybernetics; generative and stochastic music-making methods; jazz improvisation; 
+        JavaScript; mycelium networks; and drawing.
+          </p>
+
+          
+        </div>
+        
+        
+
+      </div>
+
+
+      <div id="right-panel">
+
+        <div id="image-carousel">
+
+        <!-- <h1>image carousel goes here</h1>
+
+        <ul>
+            <li>An image carousel written in JavaScript which:</li>
+            <li>works on both desktop and mobile</li>
+            <li>is built into the webpage</li>
+            <li>displays one image at a time</li>
+            <li>loops automatically through images and can be navigated manually with arrow keys.</li>
+            <li>is written by you, no internet copy-paste please!</li>
+        </ul> -->
+        <img src="media/descent_schematic_web.jpg" id="slide">
+        </div>
+        <div id="button-div">
+          <button onclick="previousImage()">&larr;</button> 
+          <div id="image-counter"></div>
+          <button onclick="nextImage()">&rarr;</button>
+        </div> 
+
+        
+
+      </div>
+    </div>
+    <button id="clock" onclick="toggleTheme()">getting time...</button>
+    
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+   
+-->
