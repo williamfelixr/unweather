@@ -73,7 +73,6 @@ h1 {
     margin: 5vh 5vw;
     object-fit: cover;
     object-position: right;
-    border: 0px solid var(--fg-colour);
 } 
 
 a {
@@ -160,12 +159,12 @@ button:focus {
     #left-panel {
         text-align: center;
         border-right: none;
-        border-bottom: 1px solid var(--fg-colour);
         width: 95%;
     } 
 
     #ps-button {
         display: block;
+        font-size: 0.9em;  
     }
 
     #personal-statement {
@@ -176,10 +175,13 @@ button:focus {
         text-align: justify;
     }   
 
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
 
     #slide {
-        height: 55vh;
-        width: 70vw;
+        width: 80vw;
     }
 }
 
@@ -197,6 +199,7 @@ button:focus {
     right: 0;
     border: none;
 }
+
 #clock:hover {
     background-color: transparent;
     font-style: italic;

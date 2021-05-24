@@ -66,11 +66,11 @@ function toggleTheme() {
     currentTheme = "light";
     document.documentElement.style.setProperty('--fg-colour', 'var(--blue)');
     document.documentElement.style.setProperty('--bg-colour', 'white');
-    document.getElementById("slide").src = "media/descent_schematic_web.jpg";
+    document.getElementById("slide").src = "media/descent_schematic_web.png";
   } else if (currentTheme == "light") {
     currentTheme = "dark";
     document.documentElement.style.setProperty('--bg-colour', 'var(--blue)');
     document.documentElement.style.setProperty('--fg-colour', 'white');
-    document.getElementById("slide").src = "media/descent_schematic_web_dark.jpg"
+    document.getElementById("slide").src = "media/descent_schematic_web_dark.png"
   }
 }
